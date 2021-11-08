@@ -86,12 +86,12 @@ background-color: rgba(0, 0, 0, 0.60);
 }
 .aboutus iframe{
     padding: 50px 20px;
-    width: 650px;
-    height: 380px;
+    width: 600px;
+    height: 420px;
 }
 .text-about{
     border:dashed 1.5px #9B0185;
-    padding: 95px 30px;
+    padding: 60px 30px;
 }
 .aboutus h2{
     color: white;
@@ -100,6 +100,9 @@ background-color: rgba(0, 0, 0, 0.60);
 .aboutus p{
     color: white;
     width: 500px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
 /*Latest Updates*/
 .lastupdate{
@@ -120,33 +123,30 @@ background-color: rgba(0, 0, 0, 0.60);
     flex-wrap: wrap;
 }
 
-.card1{
-    width: 360px;
-    height: 430px;
-    /* background-color: white; */
-    margin: 10px;
-    background-image: url(../img/sycov.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
+.card{
+    width: 300px;
+    height: 380px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0) 0%, rgb(34, 34, 34) 100%);
+    margin: 30px;
+    border-radius: 40px 40px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: #9B0185 5px 10px 200px 20px;}
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 40px 40px 0px 0px;
 }
-.card2{
-    width: 360px;
-    height: 430px;
-    /* background-color: white; */
-    margin: 10px;
-    background-image: url(../img/sycov.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.card p{
+    padding-top: 20px;
 }
-.card3{
-    width: 360px;
-    height: 430px;
-    /* background-color: white; */
-    margin: 10px;
-    background-image: url(../img/sycov.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.card .descripcion{
+    padding: 20px 20px 0px 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 .lastupdate button{
     width: 200px;
