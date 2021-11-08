@@ -68,11 +68,13 @@ header{
 padding:  0px 200px;
 background-color: rgba(0, 0, 0, 0.60);
 }
+/*cambio de colorsito*/
 .banner p{
     font-size: 30px;
-    color: #FC29FF;
+    color: #FC29FF; 
     background-color: rgba(0, 0, 0, 0.60);
 }
+
 /* About Us*/
 .aboutus{
     display: flex;
