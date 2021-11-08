@@ -159,3 +159,32 @@ background-color: rgba(0, 0, 0, 0.60);
     cursor: pointer;
     
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.div-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+.botones-foot{
+    display: flex;
+    justify-content: space-around;
+}
+.botones-foot li{
+    padding: 0 1em;
+}
+.icon{
+    font-size:1.5rem;
+}
+.contactillo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+}
