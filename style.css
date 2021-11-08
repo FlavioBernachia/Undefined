@@ -161,6 +161,7 @@ background-color: rgba(0, 0, 0, 0.60);
 }
 footer{
     display: flex;
+    color: white;
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
