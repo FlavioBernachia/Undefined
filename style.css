@@ -159,6 +159,9 @@ background-color: rgba(0, 0, 0, 0.60);
     cursor: pointer;
     
 }
+.TTB, .cargar-mas{
+    display:none;
+}
 footer{
     display: flex;
     color: white;
@@ -170,6 +173,9 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 0 4em;
+}
+footer a:any-link{
+    color:white;
 }
 .botones-foot{
     display: flex;
