@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+body{
+    background-image: url(./img/UNDEFINED.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-position: top center;
+    
+    
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.text-logo{
+    padding: 20px;
+    color: white;
+    font-size: 10px;
+}
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(245, 59, 59);
+}
+.botonera ul{
+    display: flex;
+}
+.botonera ul li{
+    padding: 0px 10px;
+}
+.botonera ul li a{
+    color: white;
+}
+/* banner */
+.banner{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.banner h2{
+    font-size: 60px;
+    color: white;
+padding:  0px 200px;
+background-color: rgba(0, 0, 0, 0.60);
+}
+.banner p{
+    font-size: 30px;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+/* About Us*/
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+}
+.aboutus iframe{
+    padding: 50px 20px;
+    width: 650px;
+    height: 380px;
+}
+.text-about{
+    border:dashed 1.5px #9B0185;
+    padding: 95px 30px;
+}
+.aboutus h2{
+    color: white;
+    font-size: 40px;
+}
+.aboutus p{
+    color: white;
+    width: 500px;
+}
+/*Latest Updates*/
+.lastupdate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+    color: white;
+    height: 120vh;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.card1{
+    width: 360px;
+    height: 430px;
+    /* background-color: white; */
+    margin: 10px;
+    background-image: url(../img/sycov.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.card2{
+    width: 360px;
+    height: 430px;
+    /* background-color: white; */
+    margin: 10px;
+    background-image: url(../img/sycov.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card3{
+    width: 360px;
+    height: 430px;
+    /* background-color: white; */
+    margin: 10px;
+    background-image: url(../img/sycov.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lastupdate button{
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #9B0185;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
