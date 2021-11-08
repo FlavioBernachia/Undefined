@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;1,400&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Mohave', sans-serif;
+    letter-spacing: 5px;
 }
 body{
     background-image: url(./img/UNDEFINED.gif);
@@ -152,4 +153,5 @@ background-color: rgba(0, 0, 0, 0.60);
     padding: 10px;
     border: 2px solid black;
     cursor: pointer;
+    
 }
