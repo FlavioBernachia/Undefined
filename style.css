@@ -8,6 +8,7 @@
     font-family: 'Mohave', sans-serif;
     letter-spacing: 5px;
     scroll-behavior: smooth;
+    position: relative;
 }
 body{
     background-image: url(./img/UNDEFINED.gif);
@@ -16,6 +17,9 @@ body{
     background-attachment: fixed;
     background-color: black;
     background-position: top center;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
     
     
 }
@@ -160,7 +164,7 @@ background-color: rgba(0, 0, 0, 0.60);
     cursor: pointer;
     
 }
-.TTB, .cargar-mas{
+.TTB{
     display:none;
 }
 footer{
@@ -169,6 +173,8 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
+    position: absolute;
+    bottom: 0;
 }
 .div-foot{
     display: flex;
