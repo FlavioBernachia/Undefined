@@ -154,14 +154,13 @@ background-color: rgba(0, 0, 0, 0.60);
 }
 .lastupdate button{
     width: 200px;
-    height: 70px;
-    border-radius: 15px;
+    height: 50px;
+    border-radius: 7px;
     background-color: #9B0185;
     color: white;
-    padding: 10px;
-    border: 2px solid black;
-    cursor: pointer;
-    
+    padding: 5px;
+    box-shadow: 1px 3px 15px 1px white;
+    cursor:pointer;   
 }
 footer{
     width:100%;
