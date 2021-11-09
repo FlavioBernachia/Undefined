@@ -21,8 +21,24 @@ window.addEventListener("load", function(){
             <p>Asesoramiento de recursos</p>
             <p class="descripcion"> Te asesoramos de la mejor forma para que tengas el mejor servicio de internet en tu zona y asi evitar problemas futuros.</p>
         </div>
-        </div>`;
-        footer.innerHTML="";
+        </div>
+        </main>
+        <footer>
+            <div class="div-foot" id="contacto">
+                <div class="contactillo">
+                    <p>Contacto</p>
+                    <a href="#">infoundefined@enterprise.com</a>
+                    <p>Av. Siempre Viva 742</p>
+                    <p>0800-808</p>
+                </div>
+                <ul class="botones-foot">
+                    <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitch icon"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube icon"></i></a></li>
+                </ul>
+            </div>
+            <p>© Created by team F.Bernachia y A.Rodriguez</p>
+        </footer>`;
     });
 });
 
