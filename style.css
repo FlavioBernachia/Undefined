@@ -164,10 +164,8 @@ background-color: rgba(0, 0, 0, 0.60);
     cursor: pointer;
     
 }
-.TTB{
-    display:none;
-}
 footer{
+    width:100%;
     display: flex;
     color: white;
     flex-direction: column;
@@ -201,4 +199,7 @@ footer a:any-link{
 }
 footer p{
     text-align: center;
+}
+.oculto{
+    display:none;
 }

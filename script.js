@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
     const footer= document.querySelector("footer");
 
     btnMore.addEventListener('click', ()=>{
-        btnMore.classList.add("TTB");
+        btnMore.classList.add("oculto");
         lastUpdate.innerHTML+=`<div class="cards">
         <div class="card">
             <img src="./img/capacitacion.jpg" alt="">
