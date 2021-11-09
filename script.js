@@ -37,7 +37,7 @@ window.addEventListener("load", function(){
                     <li><a href="#"><i class="fab fa-youtube icon"></i></a></li>
                 </ul>
             </div>
-            <p>© Created by team F.Bernachia y A.Rodriguez</p>
+            <p>© Created by team Undefined</p>
         </footer>`;
     });
 });
