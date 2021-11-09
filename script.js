@@ -22,27 +22,7 @@ window.addEventListener("load", function(){
             <p class="descripcion"> Te asesoramos de la mejor forma para que tengas el mejor servicio de internet en tu zona y asi evitar problemas futuros.</p>
         </div>
         </div>
-<<<<<<< HEAD
         </main>`;
-=======
-        </main>
-        <footer>
-            <div class="div-foot" id="contacto">
-                <div class="contactillo">
-                    <p>Contacto</p>
-                    <a href="#">infoundefined@enterprise.com</a>
-                    <p>Av. Siempre Viva 742</p>
-                    <p>0800-808</p>
-                </div>
-                <ul class="botones-foot">
-                    <li><a href="#"><i class="fab fa-instagram icon"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitch icon"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube icon"></i></a></li>
-                </ul>
-            </div>
-            <p>© Created by team Undefined</p>
-        </footer>`;
->>>>>>> a5f2dc714c7ad7dc3394fff95aeed360295cb752
     });
 });
 
